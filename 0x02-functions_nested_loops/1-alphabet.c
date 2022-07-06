@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_alphabet - function to print
  *
@@ -11,8 +10,7 @@
 
     for (c = 'a'; c <= 'z'; c++)
     {
-        _putchar(c)
+        _putchar(c);
     }
 _putchar('\n');
  }
- 
