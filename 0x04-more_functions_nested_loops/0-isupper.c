@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
- * main - return 1 if c is an uppercase alphabet
+ * _isupper - return 1 if parameter is uppercase alphabet
  *@c: the character to check
- * Return: 0 (success)
+ * Return:  0 (failure)
  */
 
- int main(void)
- {
-        int i;
+int _isupper(int c)
+{
+	int i;
 
-        for (i = 'A'; i <= 'Z'; i++)
-        {
-            if (i == c)
-            {
-                return (1);
-            }
-        }
+	for (i = 'A'; i <= 'Z'; i++)
+	{
 
-        return (0);
- }
- 
+	if (i == c)
+	{
+		return (1);
+	}
+	}
+
+	return (0);
+}
